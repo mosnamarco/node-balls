@@ -22,8 +22,8 @@ function createDots(count) {
       y: Math.random() * CANVAS.height,
       radius: Math.random() * 9,
       color: `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, 0.5)`,
-      speedX: (Math.random() - 0.7) * 2, 
-      speedY: (Math.random() - 0.7) * 2,
+      speedX: Math.random() - 0.5, 
+      speedY: Math.random() - 0.5,
     });
   }
 }
